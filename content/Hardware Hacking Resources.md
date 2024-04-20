@@ -12,6 +12,7 @@
 
 - https://www.adafruit.com/product/2264
 - Real Hardware Hacking for S$30 or Less - Presented by Joe FitzPatrick - https://www.youtube.com/watch?v=wVPochUgTvw&t=2070s
+- Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
 
 ![[Pasted image 20240419080829.png]]
 ![[Pasted image 20240419080848.png]]
