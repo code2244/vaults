@@ -49,7 +49,7 @@ Ftdi().open_from_url('ftdi:///?')
 ## Raspberry Pi
 - https://di-marco.net/blog/it/2020-06-06-raspberry_pi_3_4_and_0_w_serial_port_usage/
 - https://iosoft.blog/2019/01/28/raspberry-pi-openocd/
-
+![[Pasted image 20240419200117.png]]
 ![[Pasted image 20240419080936.png]]
 ![[Pasted image 20240419080953.png]]
 ## Hardware to hack
