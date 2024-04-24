@@ -1,7 +1,6 @@
 ## Courses 
 
 - https://www.sans.org/cyber-security-courses/iot-penetration-testing/
-- 
 ## OWASP IoT Security Testing Guide
 
 - https://owasp.org/owasp-istg/01_introduction/index.html
@@ -28,11 +27,13 @@
 - JTAG + UART https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693
 - Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
 ![[Pasted image 20240420095712.png]]
-
-![[Pasted image 20240419080829.png]]
-![[Pasted image 20240419080848.png]]
-
-## Libraries
+- apt install:
+	- sigrok and pulseview
+	- screen or minicom
+	- flashrom
+	- binwalk
+	- libmpsse
+### Libraries
 
 - Install libusb
 `sudo apt-get install libusb-1.0`
@@ -81,7 +82,7 @@ Ftdi().open_from_url('ftdi:///?')
 		- `set arch arm`
 		- `target remote localhost:3333`
 		- `x/10i 0xc0136dd4`
-- **JTAG to Rpi3**
+- ** FT232h JTAG to Rpi3**
 ![[Pasted image 20240421144514.png]]
 ![[Pasted image 20240419200117.png]]
 ![[Pasted image 20240419080936.png]]
@@ -92,7 +93,7 @@ Ftdi().open_from_url('ftdi:///?')
 - Use the PICO as a logic analyzer https://github.com/pico-coder/sigrok-pico/tree/main
 - Use the PICO as a oscilloscope https://hackaday.com/2021/06/26/raspberry-pi-pico-oscilloscope/
 - Pina PICO https://electrocredible.com/raspberry-pi-pico-serial-uart-micropython/
-![[Pasted image 20240421122845.png]]
+![[Pasted image 20240424093900.png]]
 ## Hardware to hack
 
 - https://wrongbaud.github.io/sf-slides/ Street Fighter Two Cabinet
@@ -101,7 +102,7 @@ Ftdi().open_from_url('ftdi:///?')
 - https://arcade1up.com/products/marvel-super-heroes-2-player-counter-cade
 - https://www.amazon.com/Arcade-Player-Fully-Multiplayer-Collectible-DGUNL-3283/dp/B08GN32PBV
 - https://www.walmart.com/ip/Legends-Flashback-Blast-Space-Invaders-Retro-Gaming-Blue-818858029582/723800567
-- BSidesPR 2024 Badge https://github.com/So11Deo6loria/bsidesPRSun Pin 16 17
+- BSidesPR 2024 Badge https://github.com/So11Deo6loria/bsidesPRSun Pin 16 17  for UART
 
 ## Learn GHIDRA
 
