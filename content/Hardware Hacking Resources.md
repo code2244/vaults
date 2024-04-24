@@ -82,7 +82,7 @@ Ftdi().open_from_url('ftdi:///?')
 		- `set arch arm`
 		- `target remote localhost:3333`
 		- `x/10i 0xc0136dd4`
-- ** FT232h JTAG to Rpi3**
+- **FT232h JTAG to Rpi3**
 ![[Pasted image 20240421144514.png]]
 ![[Pasted image 20240419200117.png]]
 ![[Pasted image 20240419080936.png]]
