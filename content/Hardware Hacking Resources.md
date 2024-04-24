@@ -1,5 +1,7 @@
 ## Courses 
 
+- https://voidstarsec.com/blog/on-the-road
+- https://learn.securinghardware.com/
 - https://www.sans.org/cyber-security-courses/iot-penetration-testing/
 ## OWASP IoT Security Testing Guide
 
@@ -23,16 +25,16 @@
 	- An SPI firmware writer to write and boot a modified image
 	- An I2C interface to manipulate configuration bits of a hardware device
 	- A bit-banging engine to craft hardware protocol packets.
-- Configure UART, JTAG (openOCD), SPI - https://github.com/unprovable/FTDI-Oh-My/tree/master
-- JTAG + UART https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693
-- Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
-![[Pasted image 20240420095712.png]]
 - apt install:
 	- sigrok and pulseview
 	- screen or minicom
 	- flashrom
 	- binwalk
 	- libmpsse
+- Configure UART, JTAG (openOCD), SPI - https://github.com/unprovable/FTDI-Oh-My/tree/master
+- JTAG + UART https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693
+- Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
+![[Pasted image 20240420095712.png]]
 ### Libraries
 
 - Install libusb
@@ -103,6 +105,7 @@ Ftdi().open_from_url('ftdi:///?')
 - https://www.amazon.com/Arcade-Player-Fully-Multiplayer-Collectible-DGUNL-3283/dp/B08GN32PBV
 - https://www.walmart.com/ip/Legends-Flashback-Blast-Space-Invaders-Retro-Gaming-Blue-818858029582/723800567
 - BSidesPR 2024 Badge https://github.com/So11Deo6loria/bsidesPRSun Pin 16 17  for UART
+- Linksys Wireless-N Range Extender https://fccid.io/Q87-RE3000W
 
 ## Learn GHIDRA
 
