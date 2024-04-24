@@ -17,9 +17,9 @@
 
 - https://www.adafruit.com/product/2264
 - Real Hardware Hacking for S$30 or Less - Presented by Joe FitzPatrick - https://www.youtube.com/watch?v=wVPochUgTvw&t=2070s
-	- A logic analyzer to analyze testpoints on a board `pulseview - FT232h`
+	- A logic analyzer to analyze test points on a board `pulseview - FT232h`
 	- A serial interface cable to interact with a console `sudo screen /dev/ttyUSB0 115200` 
-	- A JTAG debugger to manipulate code in a live system
+	- A JTAG debugger to manipulate code in a live system `./openocd -f interface/ftdi/um232h.cfg -f target/rpi3b.cfg`
 	- An SPI firmware dumper to extract firmware
 	- An SPI firmware writer to write and boot a modified image
 	- An I2C interface to manipulate configuration bits of a hardware device
@@ -75,6 +75,7 @@ Ftdi().open_from_url('ftdi:///?')
     - [https://blog.inoki.cc/2022/02/22/My-journey-on-raspberrypi-jtag-debugging/index.html](https://blog.inoki.cc/2022/02/22/My-journey-on-raspberrypi-jtag-debugging/index.html)
     - JTAG + UART [https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693](https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693)
     - [https://metebalci.com/blog/bare-metal-raspberry-pi-3b-jtag/](https://metebalci.com/blog/bare-metal-raspberry-pi-3b-jtag/)
+    - openOCD - `./openocd -f interface/ftdi/um232h.cfg -f target/rpi3b.cfg`
 	- GDB commands
 		- `gdb-multiarch`
 		- `set arch arm`
