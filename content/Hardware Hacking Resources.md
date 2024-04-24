@@ -1,9 +1,14 @@
 ## Courses 
 
 - https://www.sans.org/cyber-security-courses/iot-penetration-testing/
+- 
 ## OWASP IoT Security Testing Guide
 
 - https://owasp.org/owasp-istg/01_introduction/index.html
+
+## IoT Ecosystem Testing Methodology
+
+- https://www.rapid7.com/research/report/iot-ecosystem-testing-methodology/
 ## Arduino
 
 - [[Arduino Thing]]
@@ -12,7 +17,17 @@
 
 - https://www.adafruit.com/product/2264
 - Real Hardware Hacking for S$30 or Less - Presented by Joe FitzPatrick - https://www.youtube.com/watch?v=wVPochUgTvw&t=2070s
+	- A logic analyzer to analyze testpoints on a board `pulseview - FT232h`
+	- A serial interface cable to interact with a console `sudo screen /dev/ttyUSB0 115200` 
+	- A JTAG debugger to manipulate code in a live system
+	- An SPI firmware dumper to extract firmware
+	- An SPI firmware writer to write and boot a modified image
+	- An I2C interface to manipulate configuration bits of a hardware device
+	- A bit-banging engine to craft hardware protocol packets.
+- Configure UART, JTAG (openOCD), SPI - https://github.com/unprovable/FTDI-Oh-My/tree/master
+- JTAG + UART https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693
 - Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
+![[Pasted image 20240420095712.png]]
 
 ![[Pasted image 20240419080829.png]]
 ![[Pasted image 20240419080848.png]]
@@ -50,9 +65,33 @@ Ftdi().open_from_url('ftdi:///?')
 ## Raspberry Pi
 - https://di-marco.net/blog/it/2020-06-06-raspberry_pi_3_4_and_0_w_serial_port_usage/
 - https://iosoft.blog/2019/01/28/raspberry-pi-openocd/
+- Pins Guide https://pinout.xyz/pinout/jtag
+- UART on raspberry pi
+    - [https://raspberrypi.stackexchange.com/questions/138658/uart-usage-with-ubuntu-pi3-model-b](https://raspberrypi.stackexchange.com/questions/138658/uart-usage-with-ubuntu-pi3-model-b)
+    - [https://raspberrypi.stackexchange.com/questions/45570/how-do-i-make-serial-work-on-the-raspberry-pi3-pizerow-pi4-or-later-models/45571#45571](https://raspberrypi.stackexchange.com/questions/45570/how-do-i-make-serial-work-on-the-raspberry-pi3-pizerow-pi4-or-later-models/45571#45571)
+    - [https://lancesimms.com/RaspberryPi/HackingRaspberryPi4WithYocto_Part1.html](https://lancesimms.com/RaspberryPi/HackingRaspberryPi4WithYocto_Part1.html)
+    - [https://electronicshacks.com/raspberry-pi-serial-uart-tutorial/](https://electronicshacks.com/raspberry-pi-serial-uart-tutorial/)
+- JTAG on raspberry pi
+    - [https://blog.inoki.cc/2022/02/22/My-journey-on-raspberrypi-jtag-debugging/index.html](https://blog.inoki.cc/2022/02/22/My-journey-on-raspberrypi-jtag-debugging/index.html)
+    - JTAG + UART [https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693](https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693)
+    - [https://metebalci.com/blog/bare-metal-raspberry-pi-3b-jtag/](https://metebalci.com/blog/bare-metal-raspberry-pi-3b-jtag/)
+	- GDB commands
+		- `gdb-multiarch`
+		- `set arch arm`
+		- `target remote localhost:3333`
+		- `x/10i 0xc0136dd4`
+- **JTAG to Rpi3**
+![[Pasted image 20240421144514.png]]
 ![[Pasted image 20240419200117.png]]
 ![[Pasted image 20240419080936.png]]
 ![[Pasted image 20240419080953.png]]
+
+## Raspberry pi PICO
+
+- Use the PICO as a logic analyzer https://github.com/pico-coder/sigrok-pico/tree/main
+- Use the PICO as a oscilloscope https://hackaday.com/2021/06/26/raspberry-pi-pico-oscilloscope/
+- Pina PICO https://electrocredible.com/raspberry-pi-pico-serial-uart-micropython/
+![[Pasted image 20240421122845.png]]
 ## Hardware to hack
 
 - https://wrongbaud.github.io/sf-slides/ Street Fighter Two Cabinet
@@ -61,7 +100,7 @@ Ftdi().open_from_url('ftdi:///?')
 - https://arcade1up.com/products/marvel-super-heroes-2-player-counter-cade
 - https://www.amazon.com/Arcade-Player-Fully-Multiplayer-Collectible-DGUNL-3283/dp/B08GN32PBV
 - https://www.walmart.com/ip/Legends-Flashback-Blast-Space-Invaders-Retro-Gaming-Blue-818858029582/723800567
-- BSidesPR 2024 Badge https://github.com/So11Deo6loria/bsidesPRSun
+- BSidesPR 2024 Badge https://github.com/So11Deo6loria/bsidesPRSun Pin 16 17
 
 ## Learn GHIDRA
 
