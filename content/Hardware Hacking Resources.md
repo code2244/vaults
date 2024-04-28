@@ -116,3 +116,8 @@ Ftdi().open_from_url('ftdi:///?')
 ## Reverse Engineering
 
 - http://1585security.com/Firmware-Reversing-1/
+
+## Hardware Sims
+
+- (Arduino, Rpi PICO) https://wokwi.com/
+- Circuit sims https://store.steampowered.com/app/2198800/CRUMB_Circuit_Simulator/
