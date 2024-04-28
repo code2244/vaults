@@ -1,8 +1,9 @@
 ## Courses 
 
-- https://voidstarsec.com/blog/on-the-road
+- https://voidstarsec.com/blog/on-the-road https://voidstarsec.com/training.html
 - https://learn.securinghardware.com/
 - https://www.sans.org/cyber-security-courses/iot-penetration-testing/
+- https://www.artresilia.com/iot-series-i-are-people-ready-to-go/
 ## OWASP IoT Security Testing Guide
 
 - https://owasp.org/owasp-istg/01_introduction/index.html
@@ -116,6 +117,7 @@ Ftdi().open_from_url('ftdi:///?')
 ## Reverse Engineering
 
 - http://1585security.com/Firmware-Reversing-1/
+- Getting started with RE with Ghidra https://class.malware.re/
 
 ## Hardware Sims
 
