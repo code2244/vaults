@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "I just want to hack...hardware.",
+    pageTitle: "I just want to hack...",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
