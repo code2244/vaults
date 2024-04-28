@@ -35,7 +35,9 @@
 - JTAG + UART https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693
 - Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
 ![[Pasted image 20240420095712.png]]
-### Libraries
+
+### Use the FT232H GPIO
+#### Libraries
 
 - Install libusb
 `sudo apt-get install libusb-1.0`
@@ -66,6 +68,7 @@ Ftdi().open_from_url('ftdi:///?')
 
 ![[Pasted image 20240419080911.png]]
 ## Raspberry Pi
+
 - https://di-marco.net/blog/it/2020-06-06-raspberry_pi_3_4_and_0_w_serial_port_usage/
 - https://iosoft.blog/2019/01/28/raspberry-pi-openocd/
 - Pins Guide https://pinout.xyz/pinout/jtag
@@ -87,7 +90,6 @@ Ftdi().open_from_url('ftdi:///?')
 - **FT232h JTAG to Rpi3**
 ![[Pasted image 20240421144514.png]]
 ![[Pasted image 20240419200117.png]]
-![[Pasted image 20240419080936.png]]
 ![[Pasted image 20240419080953.png]]
 
 ## Raspberry pi PICO
