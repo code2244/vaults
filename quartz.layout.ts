@@ -23,8 +23,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
   ],
   right: [
-    Component.Darkmode(),
     Component.Search(),
+    Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
