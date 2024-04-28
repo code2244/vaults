@@ -1,6 +1,6 @@
 ---
 title: Welcome Hacker!
 ---
-# Index
+## What's on the menu?
 
 [[Hardware Hacking Resources]]
