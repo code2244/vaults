@@ -1,3 +1,8 @@
+Resources to learn hardware hacking...
+
+## Intro to Hardware Hacking
+
+- https://tryhackme.com/r/room/adventofcyber4 day 19, 20
 ## Courses 
 
 - https://voidstarsec.com/blog/on-the-road https://voidstarsec.com/training.html
@@ -113,6 +118,7 @@ Ftdi().open_from_url('ftdi:///?')
 ## Learn GHIDRA
 
 - https://hackaday.io/course/172292-introduction-to-reverse-engineering-with-ghidra
+- https://wrongbaud.github.io/posts/ghidra-training/
 
 ## Reverse Engineering
 
