@@ -13,7 +13,7 @@
 ## Arduino
 
 - [[Arduino Thing]]
-
+- UART on arduino https://www.circuitbasics.com/how-to-set-up-uart-communication-for-arduino/
 ## FT232H
 
 - https://www.adafruit.com/product/2264
