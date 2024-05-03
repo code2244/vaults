@@ -1,5 +1,5 @@
 
-Adafruit FT232H Breakout board para conectado al “cereal interface” .
+Adafruit FT232H Breakout board conectado al “cereal interface” .
 ![[Photo Apr 27 2024, 4 01 12 PM.jpg]]
 ![[Photo Apr 21 2024, 11 53 50 AM.jpg]]
 ![[Photo Apr 26 2024, 4 26 47 PM.jpg]]
