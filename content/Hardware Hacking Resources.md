@@ -7,8 +7,29 @@ Resources to learn hardware hacking...
 
 - https://voidstarsec.com/blog/on-the-road https://voidstarsec.com/training.html
 - https://learn.securinghardware.com/
+- TCM Academy - https://academy.tcm-sec.com/p/beginner-s-guide-to-iot-and-hardware-hacking
 - https://www.sans.org/cyber-security-courses/iot-penetration-testing/
 - https://www.artresilia.com/iot-series-i-are-people-ready-to-go/
+
+## Reverse Engineering
+
+- http://1585security.com/Firmware-Reversing-1/
+- Getting started with RE with Ghidra https://class.malware.re/
+
+### Learn Ghidra
+
+- https://hackaday.io/course/172292-introduction-to-reverse-engineering-with-ghidra
+- https://wrongbaud.github.io/posts/ghidra-training/
+
+## Hardware Sims
+
+- (Arduino, Rpi PICO) https://wokwi.com/
+- Circuit sims https://store.steampowered.com/app/2198800/CRUMB_Circuit_Simulator/
+
+## YouTube Channels
+
+- Matt Brown https://www.youtube.com/@mattbrwn
+- 
 ## OWASP IoT Security Testing Guide
 
 - https://owasp.org/owasp-istg/01_introduction/index.html
@@ -16,6 +37,10 @@ Resources to learn hardware hacking...
 ## IoT Ecosystem Testing Methodology
 
 - https://www.rapid7.com/research/report/iot-ecosystem-testing-methodology/
+
+## MITRE - EMB3D Cybersecurity Threat Model for Embedded Devices
+
+- https://emb3d.mitre.org/
 ## Arduino
 
 - [[Arduino Thing]]
@@ -114,18 +139,3 @@ Ftdi().open_from_url('ftdi:///?')
 - https://www.walmart.com/ip/Legends-Flashback-Blast-Space-Invaders-Retro-Gaming-Blue-818858029582/723800567
 - BSidesPR 2024 Badge https://github.com/So11Deo6loria/bsidesPRSun Pin 16 17  for UART
 - Linksys Wireless-N Range Extender https://fccid.io/Q87-RE3000W
-
-## Learn GHIDRA
-
-- https://hackaday.io/course/172292-introduction-to-reverse-engineering-with-ghidra
-- https://wrongbaud.github.io/posts/ghidra-training/
-
-## Reverse Engineering
-
-- http://1585security.com/Firmware-Reversing-1/
-- Getting started with RE with Ghidra https://class.malware.re/
-
-## Hardware Sims
-
-- (Arduino, Rpi PICO) https://wokwi.com/
-- Circuit sims https://store.steampowered.com/app/2198800/CRUMB_Circuit_Simulator/
