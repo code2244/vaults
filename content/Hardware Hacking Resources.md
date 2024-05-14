@@ -29,7 +29,7 @@ Resources to learn hardware hacking...
 ## YouTube Channels
 
 - Matt Brown https://www.youtube.com/@mattbrwn
-- 
+- Andrew Bellini - Hacking a Smart Camera - short series https://www.youtube.com/shorts/LgurdIN1KW0 
 ## OWASP IoT Security Testing Guide
 
 - https://owasp.org/owasp-istg/01_introduction/index.html
