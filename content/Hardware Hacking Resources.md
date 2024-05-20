@@ -45,6 +45,7 @@ Resources to learn hardware hacking...
 
 - [[Arduino Thing]]
 - UART on arduino https://www.circuitbasics.com/how-to-set-up-uart-communication-for-arduino/
+- JTAG - JTAGenum with the Arduino - https://github.com/cyphunk/JTAGenum/wiki/Embedded-Analysis#pcb-traces
 ## FT232H
 
 - https://www.adafruit.com/product/2264
