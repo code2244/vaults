@@ -67,6 +67,8 @@ Resources to learn hardware hacking...
 - Configure UART, JTAG (openOCD), SPI - https://github.com/unprovable/FTDI-Oh-My/tree/master
 - JTAG + UART https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693
 - https://github.com/whid-injector/Focaccia-Board/tree/master
+- CJMCU FT232HQ https://github.com/m3y54m/cjmcu-ft232hq-programmer?tab=readme-ov-file ![[Pasted image 20240526091954.png]]
+![[Pasted image 20240526092009.png]]
 
 ### Pulseview
 - Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
