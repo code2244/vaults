@@ -57,6 +57,7 @@ Resources to learn hardware hacking...
 	- An SPI firmware writer to write and boot a modified image
 	- An I2C interface to manipulate configuration bits of a hardware device
 	- A bit-banging engine to craft hardware protocol packets.
+
 - apt install:
 	- sigrok and pulseview
 	- screen or minicom
@@ -65,8 +66,14 @@ Resources to learn hardware hacking...
 	- libmpsse
 - Configure UART, JTAG (openOCD), SPI - https://github.com/unprovable/FTDI-Oh-My/tree/master
 - JTAG + UART https://medium.com/@0xNoor/setup-openocd-with-jtag-uart-on-raspberry-pi-4-using-ft232h-da05ca01c693
+- https://github.com/whid-injector/Focaccia-Board/tree/master
+
+### Pulseview
 - Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
 ![[Pasted image 20240420095712.png]]
+![[Pasted image 20240525143506.png]]
+- Testing with rpi3 connected to UART pins.
+![[Pasted image 20240525144647.png]]
 
 ### Use the FT232H GPIO
 #### Libraries
