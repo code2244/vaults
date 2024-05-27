@@ -73,6 +73,7 @@ Resources to learn hardware hacking...
 ### Pulseview
 - Configure ft232h with sigrok and pulseview https://github.com/hnz1102/ft232hbrkout/tree/main
 ![[Pasted image 20240420095712.png]]
+-  CJMCU FT232HQ 
 ![[Pasted image 20240525143506.png]]
 - Testing with rpi3 connected to UART pins.
 ![[Pasted image 20240525144647.png]]
